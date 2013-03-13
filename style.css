@@ -92,7 +92,7 @@ text-decoration: underline;
 /***************** PORTFOLIO PAGE **********************/
 .portfolio h2 {
 	margin: 20px 0 0 0;
-}
+	}
 .portfolio .box_1, .portfolio .box_2, .portfolio .box_3 {
 	width: 760px;
 	height: 200px;
@@ -104,6 +104,12 @@ text-decoration: underline;
 }
 .portfolio .box_2 {
 	border-right: none;
+}
+.portfolio h3 {
+	margin: 20px 0 0 20px;
+}
+.portfolio .content p {
+	margin: 0 0 0 20px;
 }
 
 /*******************************************************/
