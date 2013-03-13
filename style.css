@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  colors and such
+background - #FEFEFE
+blue - #31454C
+darker blue - #202020
+peach - #FF8168
+darker peach - #FF5B39 
+*/
+
+html, body, p, h1 {
+	margin: 0;
+	padding: 0 0 0 0;
+}
+body {
+	font-family: "Avenir" ; 
+	background-color: #FEFEFE;
+	color: #202020;
+}
+/* name on top of page */
+.name {
+	color: #202020;
+	font-family: Avenir, "Times New Roman", Times, serif;
+	font-size: 85px;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px auto auto auto;
+	font-weight: normal;
+	width: 600px;
+}
+.smaller {
+	font-size: 62px;
+}
+
+/* navigation bar */
+.menu {
+	list-style-type: none;
+	padding: 7px 0px 7px 0px;
+	width: 760px;
+	margin: auto;
+	font-family: sans-serif;
+	text-align: center;
+	border-bottom: solid 1px #202020;
+	border-top: solid 1px #202020;
+}
+.menu li {
+	display: inline-block;
+	margin: 0px 30px 0px 30px;
+}
+.menu li a {
+	text-decoration: none;
+	color: #202020;
+	height: 40px;
+	font-size: 15px;
+}
+.menu li a:hover {
+text-decoration: underline;
+}
+.menu li a:link {
+}
+.menu li a:active {
+}
+.menu li a:visited {
+}
+.menu li a.current {
+	color: #FF8168;
+}
+
+/*******************************************************/
+/******************* CONTENT ***************************/
+.content {
+	width: 760px;
+	margin: 30px auto;
+}
+/*******************************************************/
+/***************** HOME PAGE ***************************/
+.home .content p {
+	margin: 30px 0 0 0;
+}
+
+/*******************************************************/
+/***************** PORTFOLIO PAGE **********************/
+.portfolio .box_1, .portfolio .box_2, .portfolio .box_3 {
+	width: 760px;
+	height: 200px;
+	border: solid 0.5px #31454C;
+	float: left;
+}
+.portfolio .box_1, .portfolio .box_3 {
+	border-left: none;
+}
+.portfolio .box_2 {
+	border-right: none;
+}
+
+/*******************************************************/
+/************** CONTACT PAGE ***************************/
+.contact h2 { 
+margin: 30px auto 0 auto;
+text-transform: uppercase;
+font-size: 14px;
+width: 200px;
+text-align: center;
+}
+
+.contact .content p {
+margin: 0 auto;
+width: 200px;
+text-align: center;
+}
+
+/* stuff for about page */
+
+.about_text p {
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
+.about_text {
+	width: 430px;
+	text-align: justify;
+	margin: 20px 0 20px 50px;
+	float: left;
+}
+.about_image {
+	width: 205px;
+	height: 369px;
+	float: left;
+	border: 1px solid #E17D5B;
+	margin: 3px;
+}
+.about_image_border {
+	margin: 205px 0 0 530px;
+	border: 1px solid #E17D5B;
+	padding: 1px;
+	width: 213px;
+	height: 377px;
+	float: right;
+	background-color: #C4E8F4;
+	float: right;
+	-moz-box-shadow:    12px 12px 5px #666;
+	-webkit-box-shadow: 12px 12px 5px #666;
+	box-shadow:         12px 12px 5px #666;
+	position: absolute;
+}
+/* portfolio page stuff */
+.art, .code {
+	float: left;
+	width: 358px;
+	border: 1px solid #C4E8F4;
+	height: 400px;
+	background-color: #C4E8F4;
+	color: #666;
+	text-align: center;
+}
+.art {
+	margin: 0 20px 0 30px;
+}
+a .art:hover {
+	background-color: #E17D5B;
+}
+a .art:link {
+}
+a .art:active {
+}
+a .art:visited {
+}
+.art_and_code {
+	width: 100%;
+}
+/* art page */
+.art_pictures {
+	float: left;
+}
+.thinking_pic {
+	width: 640px;
+	height: 617px;
+	border: 1px solid black;
+	margin: 0 78px 40px;
+	background-image: url(images/thinking.jpg);
+}
+.man_and_paper_pic {
+	height: 480px;
+	width: 640px;
+	border: 1px solid black;
+	margin: 0 auto 30px auto;
+	background-image: url(images/man_and_paper.jpg);
+}
+.eyes_pic {
+	height: 219px;
+	width: 640px;
+	border: 1px solid black;
+	margin: 0 auto 30px auto;
+	background-image: url(images/eyes.jpg);
+}
+.joker_pic {
+	width: 539px;
+	height: 324px;
+	border: 1px solid black;
+	margin: 0 auto 30px auto;
+	background-image: url(images/joker.jpg);
+}
+
+
+/*******************/
+
+.fixed_element {
+	position: fixed;
+	bottom: 0px;
+	height: 40px;
+	width: 800px;
+	margin: 30px 0 0 0; 
+	float: left;
+	background-color: #C4E8F4;
+}
+.fixed_el_text {
+	text-align: center;
+	margin: 10px 0 0 0; 
+}
+
+.back_to_top {
+	text-decoration: none;
+	margin: 0 355px;
+	color: #CCC;
+}
+.back_to_top:hover {}
+.back_to_top:link {}
+.back_to_top:visited {}
+
+
+.abc {
+	width: 800px;
+	height: 800px;
+	float: left;
+}
