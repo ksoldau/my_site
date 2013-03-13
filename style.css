@@ -44,6 +44,7 @@ body {
 
 /* navigation bar */
 .menu {
+	position: relative;
 	list-style-type: none;
 	padding: 7px 0px 7px 0px;
 	width: 760px;
@@ -54,6 +55,7 @@ body {
 	border-top: solid 1px #202020;
 }
 .menu li {
+	position: relative;
 	display: inline-block;
 	margin: 0px 30px 0px 30px;
 }
@@ -75,6 +77,37 @@ text-decoration: underline;
 .menu li a.current {
 	color: #FF8168;
 }
+.menu ul{ 
+background: #FEFEFE;
+list-style: none;
+position: absolute;
+left: -9999px;
+margin-top: -10px;
+padding: 10px;
+border-bottom: solid 1px #202020;
+
+}
+.menu ul li {
+	float: none;
+	margin-left:0;
+}
+.menu ul a {
+	white-space: nowrap;
+}
+.menu li:hover ul {
+	left: -4px;
+	margin-top: 0px;
+	-webkit-transition: margin-top 0.2s;
+}
+.menu li:hover a{ 
+text-decoration: underline;
+}
+.menu li:hover ul a { 
+text-decoration: none;
+}
+.menu li:hover ul li a:hover {
+	text-decoration: underline;
+}
 
 /*******************************************************/
 /******************* CONTENT ***************************/
@@ -84,6 +117,9 @@ text-decoration: underline;
 }
 /*******************************************************/
 /***************** HOME PAGE ***************************/
+.home .content {
+	margin: 60px auto;
+}
 .home .content p {
 	margin: 30px 0 0 0;
 }
