@@ -149,6 +149,17 @@ text-decoration: none;
 }
 
 /*******************************************************/
+/*************** RESUME PAGE ***************************/
+.resume .resume_pdf {
+	height: 820px;
+	width: 640px;
+	margin: 30px auto 100px auto;
+}
+.resume .content p {
+	margin: 0 0 20px 0;
+}
+
+/*******************************************************/
 /************** CONTACT PAGE ***************************/
 .contact h2 { 
 margin: 30px auto 0 auto;
@@ -197,6 +208,8 @@ text-align: center;
 	box-shadow:         12px 12px 5px #666;
 	position: absolute;
 }
+
+
 /* portfolio page stuff */
 .art, .code {
 	float: left;
