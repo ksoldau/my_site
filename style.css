@@ -5,6 +5,7 @@
 background - #FEFEFE
 blue - #31454C
 darker blue - #202020
+lighter blue - #498EA8
 peach - #FF8168
 darker peach - #FF5B39 
 */
@@ -13,8 +14,16 @@ html, body, p, h1 {
 	margin: 0;
 	padding: 0 0 0 0;
 }
+a { 
+color: #498EA8;
+text-decoration: none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
 body {
-	font-family: "Avenir" ; 
+	font-family: "Avenir", Optima, sans-serif; 
 	background-color: #FEFEFE;
 	color: #202020;
 }
@@ -81,6 +90,9 @@ text-decoration: underline;
 
 /*******************************************************/
 /***************** PORTFOLIO PAGE **********************/
+.portfolio h2 {
+	margin: 20px 0 0 0;
+}
 .portfolio .box_1, .portfolio .box_2, .portfolio .box_3 {
 	width: 760px;
 	height: 200px;
